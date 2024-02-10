@@ -55,6 +55,9 @@ const nameObject = {
         return "Test"
     }
 }
-console.log(nameObject.pincode)
+
+//date
+const nameDate = new Date() //date is an object to use get the current date and time
+
 
 
