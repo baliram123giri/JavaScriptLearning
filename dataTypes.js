@@ -55,7 +55,6 @@ const nameObject = {
         return "Test"
     }
 }
-
 //date
 const nameDate = new Date() //date is an object to use get the current date and time
 

@@ -10,7 +10,7 @@
 
 //Airthmetic Operators
 //to perform the operation on the numbers or string that called as Airthmetic operators
-let x = 10
+let x = 15
 let y = 15
 console.log(x + y)//25 //addition
 console.log(x - y)//-5 //substraction
@@ -52,4 +52,42 @@ console.log(x, "line 50")//0
 // Logical Operators
 console.log(x || y)//15 //or or 
 console.log(x && y) //and and
-console.log(!x) // not
+console.log(!x) // not 
+
+const name = "prachi";
+const nameMaivish = "maivish"
+const nameanirudha = "anirudha";
+const nameKrushna = "krushna";
+const aniketShelke = "ashelke"
+const namedeepak = "deepak";
+const nameakshay = "Akshay"
+
+// type operator
+//1.typeof
+//the typeof oprator can return one data type like boolean,string,number and undefined
+//not return the object for to the function
+function anil() {
+  return "hello"
+}
+
+//console.log(typeof anil);  //yes its showing function
+
+//instanceof
+
+
+const testFunVar = { name: "Baliram" } //instaceof we use to check the object type is exist or not base on the prototypes
+
+// console.log(testFunVar instanceof Object, "instanceof")
+
+// Comparision Operators
+const test1 = 10
+const test2 = "101"
+
+// console.log(test1 !== test2, "Comparision")
+
+// Ternary Operators
+
+// console.log(test2 ? "Baliram" : "Sachin")
+
+// String Operators
+console.log("String Operators", test1 > test2)
