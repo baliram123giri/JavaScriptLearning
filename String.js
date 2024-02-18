@@ -3,6 +3,7 @@
 //2) toLowerCase()
 //3) indexOf()
 //4) subStr()
+
 //5) trim()
 //6) toUpperCase()
 //7) replace()
