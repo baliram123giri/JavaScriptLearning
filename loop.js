@@ -26,6 +26,7 @@ const newArr = [14, "5", { name: "trest" }, "Baliram", true, null, undefined, Sy
 //         return ele
 //     }
 // })
+
 // console.log(mapTest)
 // newArr.forEach(function (ele) {
 
