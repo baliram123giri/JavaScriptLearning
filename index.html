@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+<style>
+       #hours{
+        background: #000;
+        color: white;
+        padding: 5px 10px; 
+        border-radius: 10px;
+        display: block;
+        width: 15px;
+       }
+       #minutes{
+        background: #f10202;
+        color: white;
+        padding: 5px 10px; 
+        border-radius: 10px;
+        display: block;
+        width: 15px;
+       }
+       #seconds{
+        background: #0281f1;
+        color: white;
+        padding: 5px 10px; 
+        border-radius: 10px;
+        display: block;
+        width: 15px;
+       }
+       #miliseconds{
+        background: #e5f102;
+        color: white;
+        padding: 5px 10px; 
+        border-radius: 10px;
+        display: block;
+        width: 15px;
+       }
+</style>
 </head>
 <body>
+    <div style="display: flex; justify-content: space-between; flex-direction: column; gap: 5px;">
+        <span id="hours"></span>
+        <span id="minutes"></span>
+        <span id="seconds"></span>
+        <span id="miliseconds"></span>
+    </div>
     <!-- <script src="/index.js"></script> -->
     <!-- <script src="/dataTypes.js"></script> -->
     <!-- <script src="/function.js"></script> -->
@@ -15,6 +54,7 @@
     <!-- <script src="String.js"></script> -->
     <!-- <script src="arrayMethods.js"></script> -->
  <!-- <script src="arraySearch.js"></script> -->
- <script src="ArraySort.js"></script>
+ <!-- <script src="ArraySort.js"></script> -->
+ <script src="dateObj.js"></script>
 </body>
 </html>
